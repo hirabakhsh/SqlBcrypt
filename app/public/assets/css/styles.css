@@ -1,0 +1,123 @@
+#myTable {
+	background-color: rgb(34,208,178);
+	/*color:gold !important;*/
+	text-decoration: 
+	/*border-radius:3px;*/
+}
+
+.logRunBtn {
+	background-color: rgb(84,252,251);
+	color: gold !important;
+}
+
+thead {
+	background-color: gold;
+	color: rgb(13,72,117);
+}
+
+.radius{
+	border-radius:3px;
+}
+
+#runDistanceInput {
+	max-width: 150px;
+}
+
+.distanceSpace {
+	/*text-decoration: underline;*/
+
+}
+
+.distanceSpace.space::after {
+	content: "     ";
+	white-space: pre;
+	/*content: "&nbsp;";*/
+}
+
+.UCBE_logo {
+	max-width: 139px;
+	max-height: 139px;
+}
+
+body {
+	background-color: rgb(7, 71, 119);
+	/*background-color: navy;	*/
+
+}
+
+#myTitle {
+	/*font-family: 'Walter Turncoat', cursive;*/
+	/*font-family: 'Julee', cursive;*/
+	font-size: 5.5em;
+	color:gold;
+	letter-spacing: 2px;
+	/*border-bottom: solid gold 2px;*/
+	/*text-decoration: underline;*/
+	/*margin-left: -25px;*/
+}
+
+.golder {
+	color:gold !important;
+}
+
+.banner {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+label {
+		color:gold;
+}
+
+.myForm {
+	margin-top: -66px;
+	/*border-top: solid gold 2px;*/
+}
+
+.myColumn {
+
+}
+
+.myBorder {
+	border-bottom: solid gold 2px;
+}
+
+#logEntries {
+	border: solid blue 1px;
+	background-color: gray;
+}
+
+html, body {
+  height: 100%;
+}
+.splash-page {
+
+  background-image: url('../images/dev-dodia-327647.jpg');
+  /* Full height */
+   height: 100%;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/*=========================================*/
+/*MEDIA QUERIES */
+/*===========================================*/
+@media screen and (max-width: 640px) {
+	#yello {
+		font-size: 3em;
+	}
+
+	input.input textarea.textarea {
+		margin:0 auto;
+		width: 85%;
+	}
+
+	.myColumn {
+		display: flex;
+		flex-direction: column;
+	}
+}
